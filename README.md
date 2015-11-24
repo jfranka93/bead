@@ -1,5 +1,4 @@
-# bead
-#AlkFejl első beadandó doksi
+# bead dokumentáció
 
 #####1. Követelményanalízis
 ######Funkcionális elvárások:
