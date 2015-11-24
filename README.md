@@ -65,8 +65,7 @@ Névjegy hozzáadásának folyamata:
 
 2. Felhasználóifelület-modell
     - Oldalvázlatok
-    ![Névjegyek listázása](https://raw.githubusercontent.com/pamuaai/beadando/master/listDesign.jpg)
-    ![Új névjegy felvétele](https://github.com/pamuaai/beadando/blob/master/newDesign.jpg?raw=true)
+    ![Névjegyek listázása](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xtf1/v/t35.0-12/12298015_1166537733373949_373968193_o.jpg?oh=105a0036f5f2ae0b0f92f981775582dd&oe=5656568A)
 
 3. Osztálymodell
     - Adatmodell
