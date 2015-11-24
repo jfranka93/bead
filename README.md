@@ -23,7 +23,7 @@ Szerepkörök:
 - Felhasználó: Új névjegyeket tud hozzáadni, törölni és módosítani a létezőket.
 
 Használatieset-diagram:
-![alt text](https://raw.githubusercontent.com/pamuaai/beadando/master/usecase.JPG "Use cases")
+![alt text](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xap1/v/t34.0-12/12283148_1166532240041165_846462079_n.jpg?oh=15c1e01badd06e1a7141bfec65b6e0df&oe=565792DA "Use cases")
 
 Névjegy hozzáadásának folyamata:
 
