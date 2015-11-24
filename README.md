@@ -64,13 +64,13 @@ Névjegy hozzáadásának folyamata:
 		GET /delete/:id : névjegy törlése
 
 2. Felhasználóifelület-modell
-    - Oldalvázlatok
+    - Oldalvázlat
     ![Névjegyek listázása](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xtf1/v/t35.0-12/12298015_1166537733373949_373968193_o.jpg?oh=105a0036f5f2ae0b0f92f981775582dd&oe=5656568A)
 
 3. Osztálymodell
     - Adatmodell
     
-        ![Adatmodell](https://github.com/pamuaai/beadando/blob/master/DataModel.JPG?raw=true)
+        ![Adatmodell](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xlt1/v/t34.0-12/12308912_1166540563373666_210096047_n.jpg?oh=7868fd3a6a168938461c2a760f1d3264&oe=5656852A)
 
     - Adatbázisterv
     
