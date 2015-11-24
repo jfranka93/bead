@@ -74,7 +74,7 @@ Névjegy hozzáadásának folyamata:
 
     - Adatbázisterv
     
-        ![Adatbázisterv](https://github.com/pamuaai/beadando/blob/master/DatabaseModel.JPG?raw=true)
+        ![Adatbázisterv](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xpt1/v/t34.0-12/12306027_1166542713373451_2039466671_n.jpg?oh=2961bf37b8fe62e62f7709373f3f102d&oe=5657554B)
         
 ##Implementáció
 1. Fejlesztői környezet bemutatása
