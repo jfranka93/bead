@@ -1,0 +1,31 @@
+<h1>Névjegy</h1>
+<table class="table table-striped">
+    
+    <tr>
+        <th>Vezetéknév</th>
+        <td>{{nevjegy.vezeteknev}}</td>
+    </tr>
+    <tr>
+        <th>Keresztnév</th>
+        <td>{{nevjegy.keresztnev}}</td>
+    </tr>
+    <tr>
+        <th>Telefonszáma</th>
+        <td>{{nevjegy.telefon}}</td>
+    </tr>
+    <tr>
+        <th>Lakcím</th>
+        <td>{{nevjegy.lakcim}}</td>
+    </tr>
+    <tr>
+        <th>Névjegyzékbe vétel</th>
+        <td>{{nevjegy.datum}}</td>
+    </tr>
+    
+</table>
+<div class="form-group">
+  <div class="col-lg-12">
+    <a href="/list" class="btn btn-default pull-left">Vissza</a>
+    <a href="/delete/{{nevjegy.id}}" class="btn btn-danger pull-right">Törlés</a>
+  </div>
+</div>

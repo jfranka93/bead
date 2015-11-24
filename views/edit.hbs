@@ -1,0 +1,23 @@
+<h1>{{nevjegy.vezeteknev + nevjegy.keresztnev}} adatainak szerkesztese:</h1>
+<form class="form-horizontal" method="post">
+    <fieldset>
+        <div class="form-group">
+            <label for="telefon" class="col-lg-2 control-label">Telefonszám</label>
+            <div class="col-lg-10">
+                <input class="form-control" type="text" id="telefon" name="telefon" value="{{nevjegy.telefon}}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="cegnev" class="col-lg-2 control-label">Lakcím</label>
+            <div class="col-lg-10">
+                <input class="form-control" type="text" id="lakcim" name="lakcim">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <a href="/list" class="btn btn-default pull-left">Vissza</a>
+                <button type="submit" class="btn btn-primary pull-right">Modositas</button>
+            </div>
+        </div>
+    </fieldset>
+</form>

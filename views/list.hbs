@@ -1,0 +1,44 @@
+<h1>Névjegylista</h1>
+<form class="form-horizontal col-lg-8 col-lg-offset-2"
+      method="get" action="/list">
+    <div class="form-group">
+      <div class="col-lg-10">
+        <input type="search" class="form-control" 
+               name="kereses" id="kereses" value="{{kereses}}"
+               placeholder="Szemely nev alapjan keresese..."></textarea>
+      </div>
+      <div class="col-lg-2">
+            <button type="submit" class="btn btn-info pull-left">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+      </div>
+    </div>
+</form>
+<table class="table table-striped">
+    <tr>
+        <th>Vezetéknév</th>
+        <th>Keresztnév</th>
+        <th>Telefonszám</th>
+        <th>Lakcím</th>
+        <th class="text-right">Műveletek</th>
+    </tr>
+    {{#each nevjegyek as |nevjegy|}}
+    <tr class="text-success">
+        <td>{{nevjegy.vezeteknev}}</td>
+        <td>{{nevjegy.keresztnev}}</td>
+        <td>{{nevjegy.telefon}}</td>
+        <td>{{nevjegy.lakcim}}</td>
+        <td class="text-right">
+            <a class="btn btn-sm btn-primary" href="/edit/{{nevjegy.id}}">
+                <span class="glyphicon glyphicon-pencil"></span>
+            </a>
+            <a class="btn btn-sm btn-info" href="/nevjegy/{{nevjegy.id}}">
+                <span class="glyphicon glyphicon-eye-open"></span>
+            </a>
+            <a class="btn btn-sm btn-danger" href="/delete/{{nevjegy.id}}">
+                <span class="glyphicon glyphicon-remove"></span>
+            </a>
+        </td>
+    </tr>
+    {{/each}}
+</table> 
