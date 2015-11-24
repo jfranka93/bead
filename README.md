@@ -27,7 +27,7 @@ Használatieset-diagram:
 
 Névjegy hozzáadásának folyamata:
 
-![alt text](https://raw.githubusercontent.com/pamuaai/beadando/master/newUml.JPG "UML diagram for creating new entry")
+![alt text](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xat1/v/t34.0-12/12273102_1166534983374224_1802894504_n.jpg?oh=fa6cbb119f20e4e544b450a048917f51&oe=56567728 "UML diagram for creating new entry")
 
 - Oldaltérkép
     
